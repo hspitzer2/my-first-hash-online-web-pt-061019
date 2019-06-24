@@ -3,7 +3,7 @@ def my_hash
   family = { "husband" =>"John", "daugther" =>"Jules", "son" => "Evan"}
 end
 
-def shipping_manifest(mainfest)
+def shipping_manifest
   the_manifest = { "whales"=> 5, "porcelain vases"=> 2, "oil paintings"=> 3 }
 end
 
