@@ -6,7 +6,7 @@ end
 def shipping_manifest
   shipping_manifest = { "whales"=> 5, "porcelain vases"=> 2, "oil paintings"=> 3 }
 end
-the_manifest
+shipping_manifest
 
 #
 # def retrieval
