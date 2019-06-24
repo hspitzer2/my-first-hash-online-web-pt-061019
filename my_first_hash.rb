@@ -4,9 +4,9 @@ def my_hash
 end
 
 def shipping_manifest(mainfest)
-  the_manifest = { "whales"=> 5, "porcelain vases" => 2, "oil paintings" => 3 }
- end
-shipping_manifest[]
+  the_manifest = { "whales"=> 5, "porcelain vases"=> 2, "oil paintings"=> 3 }
+end
+
 
 #
 # def retrieval
