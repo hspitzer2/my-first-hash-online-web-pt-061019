@@ -3,14 +3,10 @@ def my_hash
   family = { "husband" =>"John", "daugther" =>"Jules", "son" => "Evan"}
 end
 
-def shipping_manifest(hash)
-  hash = shipping_manifest = {
-                   "whale bone corsets" => 5,
-                   "porcelain vases" => 2,
-                   "oil paintings" => 3
-                  }
+def shipping_manifest
+  shipping_manifest = {"whale bone corsets" => 5, "porcelain vases" => 2, "oil paintings" => 3}
 end
-shipping_manifest[]
+
 
 #
 # def retrieval
