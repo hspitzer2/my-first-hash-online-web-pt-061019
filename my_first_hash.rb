@@ -7,7 +7,7 @@ def shipping_manifest(old_timey_things)
    old_timey_things = { "whales"=> 5, "porcelain vases"=> 2, "oil paintings"=> 3 }
    old_timey_things.collect do
 end
- old_timey_things
+ old_timey_things[]
 
 #
 # def retrieval
