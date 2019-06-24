@@ -3,11 +3,14 @@ def my_hash
   family = { "husband" =>"John", "daugther" =>"Jules", "son" => "Evan"}
 end
 
-def shipping_manifest(old_timey_things)
-   old_timey_things = { "whales"=> 5, "porcelain vases"=> 2, "oil paintings"=> 3 }
-   old_timey_things.collect do
+def shipping_manifest(hash)
+  hash = shipping_manifest = {
+                   "whale bone corsets" => 5,
+                   "porcelain vases" => 2,
+                   "oil paintings" => 3
+                  }
 end
- old_timey_things[]
+shipping_manifest[]
 
 #
 # def retrieval
